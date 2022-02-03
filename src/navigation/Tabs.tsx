@@ -28,7 +28,7 @@ export const Tabs = () => {
             sceneContainerStyle={{ backgroundColor: '#FFF' }}
         >
             <Tab.Screen 
-                name="HomeScreen" 
+                name="StackNavigation" 
                 component={StackNavigation}
                 options={{
                     tabBarLabel: 'List',

@@ -20,6 +20,7 @@ export const HomeScreen = () => {
 
             <View 
                 style={{ alignItems: 'center' }}>
+                    
                 <FlatList 
                     data={ simplePokemonList }
                     keyExtractor={ (pokemon) => pokemon.id }
