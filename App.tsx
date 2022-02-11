@@ -1,12 +1,13 @@
-import { NavigationContainer, StackActions } from "@react-navigation/native";
 import React from "react";
-import { Text, View } from "react-native";
-import { StackNavigation } from './src/navigation/StackNavigation';
+import { NavigationContainer, StackActions } from "@react-navigation/native";
+// import { StackNavigation } from './src/navigation/StackNavigation';
+import { Tabs } from "./src/navigation/Tabs";
 
 const App = () => {
     return (
         <NavigationContainer>
-            <StackNavigation />
+            {/* <StackNavigation /> */}
+            <Tabs />
         </NavigationContainer>
       
     )
